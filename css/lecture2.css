@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+
+}
+
+body {
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.row {
+    border: 1px solid red;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.column {
+    /*border: 1px solid orange;*/
+    flex: 1;
+    margin-right: 10px;
+    padding: 10px;
+    background: pink;
+}
+
+.column:last-child {
+    margin-right: 0;
+}
+
+/*.column-offset-1 {
+    margin-left: 8.33333%;
+}*/
+
+
+
+.column-8 {
+    flex: 8;
+    
+}
+
+.column-3 {
+    flex: 3;
+
+}
