@@ -11,7 +11,7 @@ header {
     background-color: rgb(245,245,245);
 }
 
-    #header-nav {
+    .header-nav {
         list-style-type: none;
         margin: 0;
         padding: 0;
@@ -22,10 +22,10 @@ header {
     }
 
     .nav-button > a:link,
-    .nav button > a.visted, {
+    .nav-button > a:visited {
         color: grey;
-        font-family: 'Helvetica', sans-serif;
-        padding: 11px 25px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 10px 25px;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -35,3 +35,12 @@ header {
     .nav-button > a:active {
         color: black;
     }
+
+.header-img {
+    background: url(https://unsplash.it/2000/3375?image=910&blur);
+    background-size: cover;
+    background-position: 0% 60%;
+    padding: 150px;
+    
+}
+
