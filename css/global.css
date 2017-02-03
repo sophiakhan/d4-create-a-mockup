@@ -9,6 +9,7 @@ img {
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    background: white;
 }
 
 .header-nav {
@@ -58,29 +59,60 @@ text-align: center;
 
 .column {
     flex: 1;
-    /*margin-right: 10px;
-    padding: 10px;*/
 }
 
 .price-box {
-    margin-top: 40px;
+    /*margin-top: 40px;*/
     text-align: center;
     color: white;
-    margin: 20px;
+    margin: 15px 15px 0px 15px;
 }
 
 .price-box-green {
     background-color: rgb(69,130,56);
-    flex: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .price-box-blue {
     background-color: rgb(33,53,118);
-    flex: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .price-box-black {
     background-color: black;
-    flex: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.price {
+    font-size: 90px;
+    padding-bottom: 5px;
+}
+
+.price-columns {
+    border: .5px solid rgb(213,213,213);
+    background: rgb(245,245,245);
+    padding: 10px;
+    text-align: center;
+    text-color: rgb(65,77,84);
+}
+
+.price-info {
+    margin: 0px 15px 0px 15px;
+}
+
+.choose-button {
+    text-align: center;
+    background: white;
+    border: .5px solid rgb(213,213,213);
+    padding: 15px;
+}
+
+button {
+    background: white;
+    border: 1px solid rgb(213,213,213);
+    border-radius: 20px;
+    padding: 7px;
+}
